@@ -1,7 +1,7 @@
 import React from "react";
 import { properties } from "../data";
 
-import iconfilter from "../assets/icon.png";
+import iconFilter from "../assets/Icon.png"
 import PropertyCard from "./PropertyCard";
 
 const AllProperties = () => {
@@ -10,7 +10,7 @@ const AllProperties = () => {
       <div className="flex items-center justify-between">
         <div className="flex gap-2 text-xl">
           <div className="flex gap-2">
-            <img src={iconfilter} alt="" />{" "}
+            <img src={iconFilter} alt="" />{" "}
             <span className="text-sm md:text-lg"> More Filter</span>
           </div>
           <p className="text-sm md:text-lg">Showing 1 – 10 of 15 results</p>
