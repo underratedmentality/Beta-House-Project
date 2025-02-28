@@ -7,7 +7,7 @@ import PropertyCard from "./PropertyCard";
 const AllProperties = () => {
   return (
     <div id="property-section" className="custom-layout mt-5">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between hidden lg:flex">
         <div className="flex gap-2 text-xl">
           <div className="flex gap-2">
             <img src={iconFilter} alt="" />{" "}
@@ -41,7 +41,7 @@ const AllProperties = () => {
       </div>
 
       {/* all properties */}
-      <div className="flex items-center gap-5 xl:justify-between lg:justify-evenly flex-wrap mt-3.5">
+      <div className=" AllProperty flex items-center gap-5 xl:justify-between lg:justify-evenly flex-wrap mt-3.5">
         {properties.map((property) => {
           return <PropertyCard key={property._id} {...property} />;
         })}

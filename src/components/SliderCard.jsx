@@ -22,7 +22,6 @@ const SliderCard = ({
         <h2 className="text-[18px] font-semibold "> {title} </h2>
         <p className="text-[20px] font-semibold flex gap-2 items-center">
           {" "}
-          <TbCurrencyNaira />
           {price}{" "}
         </p>
         <div className="flex items-center gap-3 text-[14px] my-2.5">
