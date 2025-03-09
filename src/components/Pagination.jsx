@@ -1,28 +1,35 @@
 import React, { useState } from "react";
 import { RiArrowRightSLine } from "react-icons/ri";
 import { RiArrowLeftSLine } from "react-icons/ri";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 const Pagination = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const totalPages = 4; // Total number of pages, you can adjust this dynamically
+  const totalPages = 5; // For example, 5 total pages, you can adjust dynamically
+  const navigate = useNavigate(); // Get the navigate function
 
   // Go to the previous page
   const handlePrev = () => {
     if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
+      const newPage = currentPage - 1;
+      setCurrentPage(newPage);
+      navigate(`/page/${newPage}`); // Navigate to the new page
     }
   };
 
   // Go to the next page
   const handleNext = () => {
     if (currentPage < totalPages) {
-      setCurrentPage(currentPage + 1);
+      const newPage = currentPage + 1;
+      setCurrentPage(newPage);
+      navigate(`/page/${newPage}`); // Navigate to the new page
     }
   };
 
   // Set the current page when a page number is clicked
   const handlePageClick = (page) => {
     setCurrentPage(page);
+    navigate(`/page/${page}`); // Navigate to the selected page
   };
 
   return (

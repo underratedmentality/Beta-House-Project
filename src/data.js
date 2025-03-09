@@ -1,3 +1,32 @@
+import link2 from "./assets/Link2.png"
+import link1 from "./assets/Link1.png"
+import link3 from "./assets/Link3.png"
+import link4 from "./assets/Link4.png"
+import link5 from "./assets/Link5.png"
+import link6 from "./assets/Link6.png"
+import link7 from "./assets/Link7.png"
+import link8 from "./assets/Link8.png"
+import link9 from "./assets/Link9.png"
+import frame1 from "./assets/Frame1.png"
+import frame2 from "./assets/Frame2.png"
+import frame3 from "./assets/Frame3.png"
+import frame4 from "./assets/Frame4.png"
+import frame5 from "./assets/Frame5.png"
+import frame6 from "./assets/Frame6.png"
+import frame7 from "./assets/Frame7.png"
+import frame8 from "./assets/Frame8.png"
+import frame9 from "./assets/Frame9.png"
+import price1 from "./assets/price1.png"
+import price2 from "./assets/price2.png"
+import price3 from "./assets/price3.png"
+import price4 from "./assets/price4.png"
+import price5 from "./assets/price5.png"
+import price6 from "./assets/price6.png"
+import price7 from "./assets/price7.png"
+import price8 from "./assets/price8.png"
+import price9 from "./assets/price9.png"
+
+
 export const properties = [
   {
     _id: "66f41d2e0de24ba8a589cf51",
@@ -134,4 +163,78 @@ export const properties = [
     updatedAt: "2024-09-25T14:14:20.518Z",
     __v: 0,
   },
+];
+export const HeroSections = [
+  {
+    id: 1,
+    mainImage: link1,
+    title: "Real House Luxury Villa",
+    location: "Victoria Island, Lagos",
+    frameImage: frame1,
+    priceImage: price1
+  },
+  {
+    id: 2,
+    mainImage: link2,
+    title: "Exquisite Haven Villa",
+    location: "Festac, Lagos",
+    frameImage: frame2,
+    priceImage: price2
+  },
+  {
+    id: 3,
+    mainImage: link3,
+    title: "Luxe Palatial Villa",
+    location: "Gbagada, Lagos",
+    frameImage: frame3,
+    priceImage: price3
+  },
+  {
+    id: 4,
+    mainImage: link4,
+    title: "Harmony Luxury Villa",
+    location: "Mushin, Lagos",
+    frameImage: frame4,
+    priceImage: price4
+  },
+  {
+    id: 5,
+    mainImage: link5,
+    title: "Real House Luxury Villa",
+    location: "Victoria Island, Lagos",
+    frameImage: frame5,
+    priceImage: price5
+  },
+  {
+    id: 6,
+    mainImage: link6,
+    title: "Real House Luxury Villa",
+    location: "Lekki Ajah, Lagos",
+    frameImage: frame6,
+    priceImage: price6
+  },
+  {
+    id: 7,
+    mainImage: link7,
+    title: "Real House Luxury Villa",
+    location: "Ishiaju, Enugu",
+    frameImage: frame7,
+    priceImage: price7
+  },
+  {
+    id: 8,
+    mainImage: link8,
+    title: "Real House Luxury Villa",
+    location: "Works Layout, Owerri",
+    frameImage: frame8,
+    priceImage: price8
+  },
+  {
+    id: 9,
+    mainImage: link9,
+    title: "Real House Luxury Villa",
+    location: "Ikeja, Lagos",
+    frameImage: frame9,
+    priceImage: price9
+  }
 ];
